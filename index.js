@@ -3,9 +3,6 @@ const { dbConnection } = require('./database/config');
 require('dotenv').config();
 const cors = require('cors');
 
-console.log(process.env);
-
-
 // Crear el servidor de express
 const app = express();
 
